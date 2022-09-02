@@ -14,21 +14,21 @@ public class PedidoTest implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 			Pedido p1 = new Pedido();
-			p1.descricao= "Pedido 1";
-			p1.data = LocalDateTime.now();
-			p1.web = false;
+			p1.setDescricao ("Pedido 1");
+			p1.setData ( LocalDateTime.now());
+			p1.setWeb ( false);
 			System.out.println(p1);
 			
 			Pedido p2 = new Pedido();
-			p2.descricao= "Pedido 2";
-			p2.data = LocalDateTime.now();
-			p2.web = false;
+			p2.setDescricao ( "Pedido 2");
+			p2.setData ( LocalDateTime.now());
+			p2.setWeb ( false);
 			System.out.println(p2);
 			
 			Pedido p3 = new Pedido();
-			p3.descricao= "Pedido 3";
-			p3.data = LocalDateTime.now();
-			p3.web = false;
+			p3.setDescricao ("Pedido 3");
+			p3.setData ( LocalDateTime.now());
+			p3.setWeb ( false);
 			System.out.println(p3);
 		
 	}

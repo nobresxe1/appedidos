@@ -14,6 +14,9 @@ public class BebidaTest implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		Bebida b1 = new Bebida();
+		b1.codigo = 123;
+		b1.nome = "cerveja";
+		b1.valor = 9;
 		b1.descricao = "Qual bebida o pedido 1 solicitou?";
 		b1.gelada = true;
 		b1.alcoolica = false;
@@ -22,6 +25,9 @@ public class BebidaTest implements ApplicationRunner {
 		System.out.println(b1);
 
 		Bebida b2 = new Bebida();
+		b1.codigo = 231;
+		b1.nome = "refrigerante";
+		b1.valor = 7;
 		b2.descricao = "Qual bebida o pedido 2 solicitou?";
 		b1.gelada = true;
 		b1.alcoolica = false;
@@ -30,6 +36,9 @@ public class BebidaTest implements ApplicationRunner {
 		System.out.println(b2);
 
 		Bebida b3 = new Bebida();
+		b1.codigo = 331;
+		b1.nome = "cafe";
+		b1.valor = 5;
 		b3.descricao = "Qual bebida o pedido 3 solicitou?";
 		b1.gelada = true;
 		b1.alcoolica = false;

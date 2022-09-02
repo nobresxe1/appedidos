@@ -13,7 +13,8 @@ public class Comida {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return descricao + "; " + data + "; " + web;
+		return descricao + "; " + data + "; " + web + "; "
+				   + porcao + "; " + pizza + "; " + lanche;
 	}
 
 
