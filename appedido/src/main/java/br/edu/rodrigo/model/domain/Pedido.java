@@ -7,9 +7,13 @@ public class Pedido {
 	private LocalDateTime data;
 	private boolean web;
 	
+	public void impressao() {
+		System.out.println("#pedido");
+		System.out.println(this);
+	}
+	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return descricao + "; " + data + "; " + web;
 	}
 
