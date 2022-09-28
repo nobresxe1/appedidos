@@ -18,7 +18,8 @@ public class BebidaTest implements ApplicationRunner {
 		b01.setMarca("Qual bebida o pedido 1 solicitou?");
 		b01.setTamanho(500);
 		b01.setAlcoolica(true);
-		System.out.println(b01);
+		
+		new AppProduto("Inclusão da bebida, caipirinha").relatorio(b01);
 
 		Bebida b02 = new Bebida();
 		b02.setCodigo(231);
@@ -27,7 +28,8 @@ public class BebidaTest implements ApplicationRunner {
 		b02.setMarca("Qual bebida o pedido 2 solicitou?");
 		b02.setTamanho(300);
 		b02.setAlcoolica(false);
-		System.out.println(b02);
+		
+		new AppProduto("Inclusão da bebida, caipirinha").relatorio(b02);
 
 		Bebida b03 = new Bebida();
 		b03.setCodigo(345);
@@ -36,6 +38,7 @@ public class BebidaTest implements ApplicationRunner {
 		b03.setMarca("Qual bebida o pedido 3 solicitou?");
 		b03.setTamanho(600);
 		b03.setAlcoolica(false);
-		System.out.println(b03); 
+		
+		new AppProduto("Inclusão da bebida, caipirinha").relatorio(b03);
 		}
 }

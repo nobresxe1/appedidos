@@ -12,7 +12,7 @@ public class AppProduto {
 	
 	public void relatorio(Produto produto) {
 		System.out.println(mensagem);
-		
+				
 		produto.impressao();
 	}
 	
